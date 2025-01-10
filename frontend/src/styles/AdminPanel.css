@@ -1,0 +1,61 @@
+.admin-panel {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+}
+
+h3 {
+  color: #333;
+}
+
+.add-listing-form {
+  margin-bottom: 20px;
+}
+
+.add-listing-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-listing-form input,
+.add-listing-form textarea {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.add-listing-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-listing-form button:hover {
+  background-color: #0056b3;
+}
+
+.listings, .bookings {
+  margin-top: 20px;
+}
+
+.listing-card, .booking-card {
+  background-color: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}

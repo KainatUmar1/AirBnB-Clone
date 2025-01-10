@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures content fills the viewport */
+  width: 100%; /* Prevents shifting or black space on the sides */
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+@media (max-width: 768px) {
+  .navbar,
+  .search-bar,
+  .categories {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .categories {
+    overflow-x: auto;
+  }
+
+  .search-bar button {
+    margin: 0.5rem 0;
+  }
+
+  .nav-links {
+    margin: 0.5rem 0;
+  }
+
+  .listing-card {
+    width: 90%;
+    margin: 1rem auto;
+  }
+}
